@@ -1,0 +1,17 @@
+.Rodape {
+    background: #416449;
+    color: #FFF;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Rodape ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.Rodape ul li:last-child {
+    margin-right: 0;
+}
