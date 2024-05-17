@@ -3,6 +3,10 @@ import './Rodape.css'
 const Rodape = () => {
     return (
         <footer className="Rodape">
+
+            <section>
+                <img src="/imagens/logo.png" alt="Jogador com a bola no pé" />
+            </section>
             <section>
                 <ul>
                     <li>
@@ -22,14 +26,13 @@ const Rodape = () => {
                     </li>
                 </ul>
             </section>
-            <section>
-                <img src="/imagens/logo.png" alt="Jogador com a bola no pé" />
-            </section>
+            
             <section>
                 <p>
                    Desenvolvido por Leonardo Camporesi.
                 </p>
             </section>
+
         </footer>
     )
 }

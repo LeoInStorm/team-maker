@@ -5,32 +5,38 @@ import Time from './componentes/Time';
 import Rodape from './componentes/Rodape';
 
 function App() {
+  document.title = 'TeamMaker'
 
   const times = [
     {
       nome: 'Goleiro',
       corPrimaria: '#57C278',
-      corSecundaria: '#D9F7E9'
+      corSecundaria: '#D9F7E9',
+      imagemDeFundo:''
     },
     {
       nome: 'Laterais',
       corPrimaria: '#82CFFA',
-      corSecundaria: '#E8F8FF'
+      corSecundaria: '#E8F8FF',
+      imagemDeFundo:'',
     },
     {
       nome: 'Zagueiros',
       corPrimaria: '#A6D157',
-      corSecundaria: '#F0F8E2'
+      corSecundaria: '#F0F8E2',
+      imagemDeFundo:'',
     },
     {
       nome: 'Meio-campistas',
       corPrimaria: '#E06B69',
-      corSecundaria: '#FDE7E8'
+      corSecundaria: '#FDE7E8',
+      imagemDeFundo:''
     },
     {
       nome: 'Atacantes',
       corPrimaria: '#DB6EBF',
-      corSecundaria: '#FAE9F5'
+      corSecundaria: '#FAE9F5',
+      imagemDeFundo:''
     },
   ]
 
