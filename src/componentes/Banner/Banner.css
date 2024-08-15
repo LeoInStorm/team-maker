@@ -1,5 +1,5 @@
 .banner {
-    background-color: #416449;
+    background-color: var(--cor-principal);
     text-align: center;
     width: 100%;
 }
@@ -12,6 +12,6 @@
 
 @media (max-width: 1024px){
     .banner img{
-        width: 120vw;
+        width: 100vw;
     }
 }
