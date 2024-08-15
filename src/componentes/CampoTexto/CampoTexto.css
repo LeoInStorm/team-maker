@@ -14,7 +14,7 @@
     width: 100%;
     border: none;
     font-size: 1.5vw;
-    padding: 1.5vw;
+    padding: 1vw;
     box-sizing: border-box;
 }
 
@@ -26,6 +26,7 @@
 
     .campo-texto input {
         font-size: 3vw;
+        padding: 1.5vw;
     }
     
     
