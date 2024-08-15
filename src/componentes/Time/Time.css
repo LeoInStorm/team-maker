@@ -1,18 +1,36 @@
 .time {
     text-align: center;
-    padding: 32px;
+    padding: 2vw;
 }
 
 .time h3 {
-    font-size: 32px;
-    border-bottom: 4px solid;
+    font-size: 2vw;
+    border-bottom: 0.5vw solid;
     display: inline-block;
-    padding-bottom: 8px;
+    padding-bottom: 0.5vw;
 }
 
 .time .colaboradores {
     display: flex;
     justify-content: space-around;
-    margin-top: 32px;
+    margin-top: 2vw;
     flex-wrap: wrap;
+}
+
+
+@media (max-width: 1024px) {
+
+    .time h3 {
+        font-size: 3.5vw;
+    }
+    
+}
+
+
+@media (max-width: 420px) {
+
+    .time h3 {
+        font-size: 5vw;
+    }
+    
 }

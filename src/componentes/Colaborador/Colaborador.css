@@ -48,12 +48,16 @@
     }
 
     .colaborador .rodape {
-        padding-top: 20vw;
+        padding-top: 10vw;
         padding-bottom: 2vw;
     }
 
-    .colaborador .rodape h4,h5{
-        font-size: 5vw;
+    .colaborador .rodape h4{
+        font-size: 4vw;
         padding-bottom: 2vw;
+    }
+
+    .colaborador .rodape h5{
+        font-size: 3.5vw;
     }
 }
