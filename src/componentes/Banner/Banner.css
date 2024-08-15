@@ -1,9 +1,17 @@
 .banner {
     background-color: #416449;
     text-align: center;
+    width: 100%;
 }
 
 
 .banner img{
-    max-width: 100%;
+    width: 60vw;
+}
+
+
+@media (max-width: 1024px){
+    .banner img{
+        width: 120vw;
+    }
 }
